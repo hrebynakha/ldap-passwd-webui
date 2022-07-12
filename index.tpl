@@ -39,4 +39,11 @@
       </div>
     </main>
   </body>
+  <div id="footer"> 
+    <p>&copy; 2022 Anatolii hrebynakha. <a class="footer-link" href="https://github.com/hrebynakha/ldap-passwd-webui"> AD
+                        WebManager</a>.</p>        
+        <p>Forked in 2022 from <a class="footer-link" href="https://github.com/jirutka/ldap-passwd-webui">ldap-passwd-webui</a> by
+            Jakub Jirutka.</p>
+        <div class="clear"></div>
+    </div>
 </html>
