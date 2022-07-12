@@ -28,13 +28,11 @@ def get_index():
 @post('/')
 def post_index():
     form = request.forms.getunicode
-
     def error(msg):
         return index_tpl(username=form('username'), alerts=[('error', msg)])
 
     if form('new-password') != form('confirm-password'):
         return error("Password doesn't match the confirmation!")
-
     if len(form('new-password')) < 8:
         return error("Password must be at least 8 characters long!")
 

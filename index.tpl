@@ -15,10 +15,6 @@
     <main>
       <h1>{{ page_title }}</h1>
       <form method="post">
-        <h1>{Test connection: </h1>
-        <button type="submit">Check AD Conncetion</button>
-      </form>
-      <form method="post">
         <label for="username">Username</label>
         <input id="username" name="username" value="{{ get('username', '') }}" type="text" required autofocus>
 
