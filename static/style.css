@@ -109,3 +109,19 @@ button:hover {
     border: 0;
   }
 }
+
+#footer {
+  margin: 0px auto;
+  width: 850px;
+  }    
+  #footer .social {
+  padding: 30px 0;
+  width: 425px;
+  text-align: center;
+  }
+  #footer .copyright {
+  float: right;
+  padding: 30px 0;
+  width: 425px;
+  text-align: center;
+  }
