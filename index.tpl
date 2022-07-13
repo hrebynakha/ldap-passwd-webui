@@ -7,7 +7,6 @@
     <meta name="robots" content="noindex, nofollow">
 
     <title>{{ page_title }}</title>
-    <h6> Test<h6>
     <link rel="stylesheet" href="{{ url('static', filename='style.css') }}">
   </head>
 
