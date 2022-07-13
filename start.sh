@@ -1,6 +1,5 @@
 #!/bin/bash
-app="docker.adwm"
-docker build -t ${app} .
-docker run -d -p 56733:80 \
-  --name=${app} \
-  -v $PWD:/app ${app}
+app="docker-lpw"
+docker build --tag ${app} .
+docker run -p 8000:8000 ${app}
+  
