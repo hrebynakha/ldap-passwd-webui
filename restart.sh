@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Start Gunicorn processes
-echo Starting Gunicorn.
+echo Restarting Gunicorn.
+pkill -f gunicorn || true
 gunicorn app:application \
-    --bind 0.0.0.0:800 \
+    --bind 0.0.0.0:8000 \
     --workers 3 \
     --daemon
