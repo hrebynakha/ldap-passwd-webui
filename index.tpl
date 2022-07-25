@@ -38,9 +38,10 @@
       </div>
     </main>
   </body>
-  <div id="footer"> 
+  <div id="footer">
+    <p>Test</p>
     <p>&copy; 2022 Anatolii Hrebynakha <a class="footer-link" href="https://github.com/hrebynakha/ldap-passwd-webui"> AD
-                        Change Password Web UI</a>.</p>        
+                        Change Password Web UI</a>.</p>
         <p>Forked in 2022 from <a class="footer-link" href="https://github.com/jirutka/ldap-passwd-webui">ldap-passwd-webui</a> by
             Jakub Jirutka.</p>
         <div class="clear"></div>
